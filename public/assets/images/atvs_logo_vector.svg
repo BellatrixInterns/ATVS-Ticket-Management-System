@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <g filter="url(#subtle-shadow)">
+    <!-- Top Face (Red - A) -->
+    <path d="M 100 25 
+             C 104 22.5, 110 26, 155 52 
+             C 160 55, 160 59, 156 61.5 
+             L 104 91.5 
+             C 101.5 93, 98.5 93, 96 91.5 
+             L 44 61.5 
+             C 40 59, 40 55, 45 52 
+             Z" 
+          fill="#EE1C25" />
+    
+    <!-- Left Face (Blue - V) -->
+    <path d="M 38 69 
+             L 94 101 
+             C 97 103, 98 105, 98 109 
+             L 98 163 
+             C 98 168, 93 171, 89 168.5 
+             L 44 142 
+             C 39 139, 36 134, 36 128 
+             L 36 74 
+             C 36 70, 37 68.5, 38 69 
+             Z" 
+          fill="#0C34B8" />
+
+    <!-- Right Face (Orange - S) -->
+    <path d="M 162 69 
+             L 106 101 
+             C 103 103, 102 105, 102 109 
+             L 102 163 
+             C 102 168, 107 171, 111 168.5 
+             L 156 142 
+             C 161 139, 164 134, 164 128 
+             L 164 74 
+             C 164 70, 163 68.5, 162 69 
+             Z" 
+          fill="#FF7200" />
+    
+    <!-- Letters -->
+    <!-- Top 'A' -->
+    <text x="100" y="73" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" text-anchor="middle">A</text>
+    
+    <!-- Left 'V' -->
+    <text x="66" y="142" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" text-anchor="middle">V</text>
+    
+    <!-- Right 'S' -->
+    <text x="134" y="142" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="34" text-anchor="middle">S</text>
+  </g>
+</svg>
